@@ -30,7 +30,7 @@ const StringValue = () => {
                 <h2 className="mb-3">Response</h2>
                 <Card >
                     <CardBody>
-                        <pre id="output-1">  {output ?  
+                        <pre id="output-1">  {output ?
                         `El resultado del valor es : ${ output }` : `No hay respuesta, introduzca valor en la entrada`   }</pre>
                     </CardBody>
                 </Card>
